@@ -1,5 +1,7 @@
 Check-list for Calculator
+
 | № |               Check name                      | Status |
+-- | -------------|--------
 | 1 | Check division with positive numbers          | Passed |
 | 2 | Check division with negative numbers          | Passed |
 | 3 | Check division with zero dividend numbers     | Passed |
@@ -9,6 +11,7 @@ Check-list for Calculator
 | 7 | Check multiplication with zero                | Passed |
 
 Check-list for Solver
+-- | -------------|--------
 | № |               Check name                      | Status |
 | 1 | Check discriminant positive                   | Passed |
 | 2 | Check discriminant negative                   | Passed |
