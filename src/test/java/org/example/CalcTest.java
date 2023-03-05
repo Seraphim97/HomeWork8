@@ -13,13 +13,13 @@ public class CalcTest {
     @Before
     public void setUpEachTest() {
         calculator = new Calculator();
-        final double ACCURACY = 0.001;
+
     }
 
     @Test
     public void divisionPositiveNumbers() {
         double result = calculator.division(8.8,2.5);
-        Assert.assertEquals(3.52,result,0.001);
+        Assert.assertEquals(3.520,result,0.001);
     }
 
     @Test
