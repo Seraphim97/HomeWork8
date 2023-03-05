@@ -35,29 +35,29 @@ public class App {
         System.out.println("Average of myArrayOne = " + average);
 
 
-
-    //ex.5
+        //ex.5
         int[] myArrayTwo = new int[10];
         for (int b = 0; b < myArrayTwo.length; b++) {
             myArrayTwo[b] = rd.nextInt();
+
         }
-        Scanner in = new Scanner(System.in);
-        double result = 0;
         int max = myArrayTwo[0];
-        for (int b = 0; b < myArrayTwo.length; b++){
-            result = myArrayTwo[b] + result;
+        for (int b = 1; b < myArrayTwo.length; b++) {
+            if (myArrayTwo[b] > max) {
+                max = myArrayTwo[b];
+            }
         }
-        System.out.println(Arrays.stream(myArrayTwo).max());
-        System.out.println(Arrays.stream(myArrayTwo).min());
+        System.out.println("myArrayTwo max = " + max);
 
 
-
-
-
-
+        int min = myArrayTwo[0];
+        for (int b = 1; b < myArrayTwo.length; b++) {
+            if (myArrayTwo[b] < min) {
+                min = myArrayTwo[b];
+            }
+        }
+        System.out.println("myArrayTwo min = " + min);
     }
-
-
 
 
 
