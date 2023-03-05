@@ -11,8 +11,9 @@ Check-list for Calculator
 | 7 | Check multiplication with zero                | Passed |
 
 Check-list for Solver
--- | -------------|--------
+
 | № |               Check name                      | Status |
+-- | -------------|--------
 | 1 | Check discriminant positive                   | Passed |
 | 2 | Check discriminant negative                   | Passed |
 | 3 | Check discriminant zero                       | Passed |
